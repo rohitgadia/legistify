@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: legistify
+        psr4_prefix: legistify
+        src_path: app

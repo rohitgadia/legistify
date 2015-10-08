@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('q',function(){
+	return view('query');
+});
+Route::get('q/{query}',function($query){
+	return view('reply');
+})->where('query','[0-9]+');
+Route::get('404',function(){
+	abort(404);
+});

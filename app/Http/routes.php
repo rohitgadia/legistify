@@ -14,12 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('q',function(){
-	return view('query');
-});
-Route::get('q/{query}',function($query){
-	return view('reply');
-})->where('query','[0-9]+');
+Route::get('q','QueryController@index');
+Route::get('q/{id}', 'ReplyController@index'
+)->where('id','[0-9]+');
 Route::get('404',function(){
 	abort(404);
 });
+Route::get('layouts',function(){
+	return view('layouts.master');
+});
+Route::post('q/{id}/mail','ReplyController@mail');

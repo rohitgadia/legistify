@@ -1,0 +1,15 @@
+.query-list
+{
+	list-style: none;
+	background: #e8e8e8;
+	border-bottom: 1px solid black;
+	height: 34px;
+}
+.head
+{
+	margin-top: 100px;
+}
+.paginator
+{
+	text-align: center;
+}

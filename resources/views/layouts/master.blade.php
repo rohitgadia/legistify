@@ -36,7 +36,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="smoothScroll navbar-brand" href="#page-top"><img src="http://laravel.dev/img/LOGOnew.png" style="height:75px;width:75px"></img></a>
+                <a class="smoothScroll navbar-brand" href="#page-top"><img src="http://laravel.dev/img/LOGOnew.png" style="height:50px;width:75px"></img></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

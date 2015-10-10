@@ -25,3 +25,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+
+## About the project 
+The web application is set up on 'laravel.dev' in the localhost, please adhere accordingly
+
+## Database 
+The database file is included and is name 'legistify.sql'

@@ -40,7 +40,7 @@ class ReplyController extends Controller
     	//Mailing to the recipient.
     	Mail::send('mail.response',['input'=>$input],function($message) use ($input)
     	{
-    		 $message->to('rohitgadia.95@gmail.com');
+    		 $message->to($input['email']);
    			 $message->subject('Response from Legistify');
     		 $message->from('help@legistify.com','Legistify');
     		 $message->attach('uploads/attach.docx');

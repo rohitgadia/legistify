@@ -31,4 +31,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 The web application is set up on 'laravel.dev' in the localhost, please adhere accordingly
 
 ## Database 
-The database file is included and is name 'legistify.sql'
+The database file is included and is named 'legistify.sql'
+
+## Pages
+The queries are listed on the view 'q' and the responses to these queries can be made at 'q/{id-in-database-table}', once the mail is sent the app will redirect you to the queries page. 
+
